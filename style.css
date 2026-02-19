@@ -1,0 +1,248 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: url("https://www.mintlify.com/hero/bg-dark.svg");
+  background-size: cover;
+  background-repeat: no-repeat; 
+  color: whitesmoke;
+  background-color: #000;
+}
+
+header {
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+  padding: 18px 0;
+  gap: 40px;
+}
+header .main .left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+header .main .left a {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+}
+header .main .left nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+header .main .left nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 25px;
+}
+header .main .left nav ul li {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+header .main .right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 25%;
+}
+header .main .right .btns {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+header .main .right .btns .contact-btn {
+  text-decoration: none;
+  padding: 4.5px 12px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+header .main .right .btns .start-btn {
+  padding: 4.5px 12px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+}
+
+main .relative .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 4.5rem ;
+  padding-bottom: 6.8rem;
+  max-width: 80%;
+  margin: 0 auto;
+}
+main .relative .content h1 {
+  width: 100%;
+  max-width: 40rem;
+  text-align: center;
+  color: #fff;
+  font-size: 62px;
+  font-weight: 500;
+  line-height: 115%;
+}
+main .relative .content p {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 1.5rem;
+  text-align: center;
+  max-width: 29.5rem;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+main .relative .content form {
+  margin-top: 2rem;
+  max-width: 22.5rem;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(12px);
+  background-color: rgba(255, 255, 255, 0.183);
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  border-radius: 30px;
+  overflow: hidden;
+  padding: 2px 0;
+  border: none;
+}
+main .relative .content form input {
+  padding: 2px 18px;
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 32px;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: transparent;
+  color: #fff;
+}
+main .relative .content form input::placeholder {
+  color: #fff;
+  opacity: 0.6;
+}
+main .relative .content button {
+  padding: 0 10px;
+  outline: none;
+  width: 40%;
+  height: 32px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+main .relative .content-img {
+  /* margin-top: 5.5rem; */
+  max-width: 67.5rem;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 30px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .relative .content-img .img-box img {  
+  margin: 0 auto;
+}
+
+main .company-logo {
+  max-width: 67.5rem;
+  width: 100%; 
+  margin: 6.5rem  auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 3rem;
+}
+main .company-logo p{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  justify-self: center;
+}
+
+main .features .main{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 18px;
+  padding: 50px 0;
+}
+main .features .main h2 {
+  font-size: 38px;
+  font-weight: 500;
+}
+main .features .main p {
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 40.5rem;
+}
+
+main .features 
+
+main .features .features-card .upper-card{
+  background-color: rgba(255, 255, 255, 0.183);
+}
+main .features .features-card .lower-card{
+  background-color: rgba(255, 255, 255, 0.183);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
