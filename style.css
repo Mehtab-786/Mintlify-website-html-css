@@ -13,7 +13,7 @@ body {
   font-family: "Inter", sans-serif;
   background: url("https://www.mintlify.com/hero/bg-dark.svg");
   background-size: cover;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   color: whitesmoke;
   background-color: #000;
 }
@@ -97,7 +97,7 @@ main .relative .content {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding-top: 4.5rem ;
+  padding-top: 4.5rem;
   padding-bottom: 6.8rem;
   max-width: 80%;
   margin: 0 auto;
@@ -173,29 +173,33 @@ main .relative .content-img {
   align-items: center;
   justify-content: center;
 }
-main .relative .content-img .img-box img {  
+main .relative .content-img .img-box img {
   margin: 0 auto;
 }
-
 main .company-logo {
   max-width: 67.5rem;
-  width: 100%; 
-  margin: 6.5rem  auto;
+  width: 100%;
+  margin: 6.5rem auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, auto);
   gap: 3rem;
 }
-main .company-logo p{
+main .company-logo p {
   color: #fff;
   font-size: 20px;
   font-weight: 700;
   justify-self: center;
 }
-
-main .features .main{
+main .features {
   width: 100%;
+  max-width: 67.5rem;
+  margin: 6.5rem auto;
+}
+main .features .main {
+  width: 55%;
   display: flex;
+  margin: 0 auto;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -209,31 +213,123 @@ main .features .main h2 {
 main .features .main p {
   text-align: center;
   color: #fff;
-  font-size: 18px;
+  opacity: 0.8;
+  font-size: 16px;
   line-height: 1.5;
   max-width: 40.5rem;
 }
-
-main .features 
-
-main .features .features-card .upper-card{
-  background-color: rgba(255, 255, 255, 0.183);
+main .features .features-card{
+  width: 90%;
+  margin: 0 auto;
+}
+main .features .features-card .upper-card {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 18px;
+  width: 100%;
+}
+main .features .features-card .upper-card .left,
+main .features .features-card .upper-card .right {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #08090A;
+  border-radius: 20px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+}
+main .features .features-card .upper-card div .head{
+  color: #18e299;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+main .features .features-card .upper-card div h3{
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: -0.2px;
+}
+main .features .features-card .upper-card div .content{
+  color: #fff;
+  opacity: 0.8;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 80%;
+  text-wrap: balance;
+}
+main .features .features-card .upper-card div .imageDiv{
+  width: 80%;
+  border-radius: 12px;
+  background-color: teal;
+}
+main .features .features-card .upper-card div img {
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+  border: none;
 }
 main .features .features-card .lower-card{
-  background-color: rgba(255, 255, 255, 0.183);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #08090A;
+
+  border-radius: 20px;
+  display: flex;
+  margin: 20px 0 50px 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 18px;
 }
 
+main .features .features-card .lower-card .about-feature{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  padding: 45px 0;
+}
 
-
-
-
-
-
-
-
-
-
-
+main .features .features-card .lower-card .about-feature p {
+  color: #18e299;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+main .features .features-card .lower-card .about-feature h4 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: -0.2px;
+  color: #fff;
+}
+main .features .features-card .lower-card .about-feature .content {
+  text-wrap: balance;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: none;
+}
+main .features .features-card .lower-card .img-box {
+  width: 100%;
+}
+main .features .features-card .lower-card .img-box img {
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+  border: none;
+}
 
 
 
