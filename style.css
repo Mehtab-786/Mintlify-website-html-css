@@ -278,7 +278,6 @@ main .features .features-card .upper-card div img {
 main .features .features-card .lower-card{
   border: 1px solid rgba(255, 255, 255, 0.1);
   background-color: #08090A;
-
   border-radius: 20px;
   display: flex;
   margin: 20px 0 50px 0;
